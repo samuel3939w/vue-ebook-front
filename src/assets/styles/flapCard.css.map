@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AC8FA,AAAA,KAAK,CAAC;EACJ,KAAK,EAAE,IAAI;EACX,SAAS,EA3FD,UAAkB;CA4F3B;;AAED,AAAA,MAAM,CAAC;EACL,KAAK,EAAE,IAAI;EACX,SAAS,EAhGD,UAAkB;EAiG1B,WAAW,EAAE,IAAI;CAClB",
+    "sources": [
+        "flapCard.scss",
+        "mixin.scss"
+    ],
+    "names": [],
+    "file": "flapCard.css"
+}

@@ -1,0 +1,126 @@
+.icon {
+  color: #666;
+  font-size: 0.42667rem;
+}
+
+.title {
+  color: #666;
+  font-size: 0.42667rem;
+  font-weight: bold;
+}
+
+.title-big {
+  line-height: 0.48rem;
+  font-size: 0.42667rem;
+  max-height: 0.96rem;
+  color: #444;
+  font-weight: bold;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+
+.title-medium {
+  font-size: 0.37333rem;
+  line-height: 0.42667rem;
+  max-height: 0.85333rem;
+  color: #444;
+  font-weight: bold;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+
+.title-small {
+  font-size: 0.32rem;
+  line-height: 0.4rem;
+  max-height: 0.8rem;
+  color: #444;
+  font-weight: bold;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+
+.sub-title-medium {
+  line-height: 0.42667rem;
+  font-size: 0.37333rem;
+  max-height: 0.85333rem;
+  color: #666;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+
+.sub-title {
+  line-height: 0.4rem;
+  font-size: 0.32rem;
+  max-height: 0.4rem;
+  color: #666;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+
+.sub-title-tiny {
+  line-height: 0.32rem;
+  font-size: 0.26667rem;
+  max-height: 0.32rem;
+  color: #666;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+
+.third-title {
+  line-height: 0.4rem;
+  font-size: 0.32rem;
+  max-height: 0.4rem;
+  color: #999;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+
+.third-title-tiny {
+  line-height: 0.32rem;
+  font-size: 0.26667rem;
+  max-height: 0.32rem;
+  color: #999;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+/*# sourceMappingURL=home.css.map */

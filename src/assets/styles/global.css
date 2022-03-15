@@ -1,0 +1,322 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  overflow: hidden;
+  font-family: 'PingFangSC-Light', 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', 'Arial', 'sans-serif';
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.icon {
+  color: #666;
+  font-size: 0.42667rem;
+}
+
+.title {
+  color: #666;
+  font-size: 0.42667rem;
+  font-weight: bold;
+}
+
+.icon {
+  color: #666;
+  font-size: 0.42667rem;
+}
+
+.title {
+  color: #666;
+  font-size: 0.42667rem;
+  font-weight: bold;
+}
+
+.slide-down-enter,
+.slide-down-leave-to {
+  -webkit-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);
+}
+
+.slide-down-enter-to,
+.slide-down-leave,
+.slide-up-enter-to,
+.slide-up-leave {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.slide-down-enter-active,
+.slide-down-leave-active,
+.slide-up-enter-active,
+.slide-up-leave-active,
+.fade-enter-active,
+.fade-leave-active,
+.slide-right-enter-active,
+.slide-right-leave-active,
+.popup-slide-up-enter-active,
+.popup-slide-up-leave-active,
+.fade-slide-right-enter-active,
+.fade-slide-right-leave-active,
+.title-move-enter-active,
+.title-move-leave-active,
+.hot-search-move-enter-active,
+.hot-search-move-leave-active {
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.slide-up-enter,
+.slide-up-leave-to {
+  -webkit-transform: translate3d(0, 3.68rem, 0);
+          transform: translate3d(0, 3.68rem, 0);
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-to,
+.fade-leave {
+  opacity: 1;
+}
+
+.slide-right-enter,
+.slide-right-leave-to {
+  -webkit-transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
+}
+
+.popup-slide-up-enter,
+.popup-slide-up-leave-to {
+  -webkit-transform: translate3d(0, 100%, 0);
+          transform: translate3d(0, 100%, 0);
+  opacity: 0;
+}
+
+.popup-slide-up-enter-to,
+.popup-slide-up-leave,
+.fade-slide-right-enter-to,
+.fade-slide-right-leave,
+.title-move-enter-to,
+.title-move-leave,
+.hot-search-move-enter-to,
+.hot-search-move-leave {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+.fade-slide-right-enter,
+.fade-slide-right-leave-to {
+  -webkit-transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
+  opacity: 0;
+}
+
+.title-move-enter,
+.title-move-leave-to {
+  -webkit-transform: translate3d(0, 0.26667rem, 0);
+          transform: translate3d(0, 0.26667rem, 0);
+  opacity: 0;
+}
+
+.hot-search-move-enter,
+.hot-search-move-leave-to {
+  -webkit-transform: translate3d(0, 0.8rem, 0);
+          transform: translate3d(0, 0.8rem, 0);
+  opacity: 0;
+}
+
+.icon {
+  color: #666;
+  font-size: 0.42667rem;
+}
+
+.title {
+  color: #666;
+  font-size: 0.42667rem;
+  font-weight: bold;
+}
+
+.title-big {
+  line-height: 0.48rem;
+  font-size: 0.42667rem;
+  max-height: 0.96rem;
+  color: #444;
+  font-weight: bold;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+
+.title-medium {
+  font-size: 0.37333rem;
+  line-height: 0.42667rem;
+  max-height: 0.85333rem;
+  color: #444;
+  font-weight: bold;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+
+.title-small {
+  font-size: 0.32rem;
+  line-height: 0.4rem;
+  max-height: 0.8rem;
+  color: #444;
+  font-weight: bold;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+
+.sub-title-medium {
+  line-height: 0.42667rem;
+  font-size: 0.37333rem;
+  max-height: 0.85333rem;
+  color: #666;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+
+.sub-title {
+  line-height: 0.4rem;
+  font-size: 0.32rem;
+  max-height: 0.4rem;
+  color: #666;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+
+.sub-title-tiny {
+  line-height: 0.32rem;
+  font-size: 0.26667rem;
+  max-height: 0.32rem;
+  color: #666;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+
+.third-title {
+  line-height: 0.4rem;
+  font-size: 0.32rem;
+  max-height: 0.4rem;
+  color: #999;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+
+.third-title-tiny {
+  line-height: 0.32rem;
+  font-size: 0.26667rem;
+  max-height: 0.32rem;
+  color: #999;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+
+.icon {
+  color: #666;
+  font-size: 0.42667rem;
+}
+
+.title {
+  color: #666;
+  font-size: 0.42667rem;
+  font-weight: bold;
+}
+/*# sourceMappingURL=global.css.map */
